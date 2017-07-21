@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#242424"
+    tools:context="com.dreamfactory.customview.MainActivity">
+
+    <!--<com.dreamfactory.customview.widget.SimpleDemoView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <com.dreamfactory.customview.widget.XformodeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--<com.dreamfactory.customview.widget.ProgressRing-->
+        <!--android:layout_width="320dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--app:pr_bg_end_color="#00ffffff"-->
+        <!--app:pr_bg_mid_color="#33ffffff"-->
+        <!--app:pr_bg_start_color="#00ffffff"-->
+        <!--app:pr_progress="80"-->
+        <!--app:pr_progress_end_color="#D9B262"-->
+        <!--app:pr_progress_start_color="#00ffffff"-->
+        <!--app:pr_progress_width="8dp" />-->
+
+</RelativeLayout>
